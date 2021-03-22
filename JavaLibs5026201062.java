@@ -5,16 +5,16 @@ public class JavaLibs5026201062
 	{
 	double saku, pengeluaran;
 
-        String ask1 =JOptionPane.showInputDialog("nama kamu:");
-        String ask2 =JOptionPane.showInputDialog("jenis kelamin:");
-        String ask3 = JOptionPane.showInputDialog("tanggal kamu lahir:");
-        String ask4 = JOptionPane.showInputDialog("bulan kamu lahir:");
-        String ask5 = JOptionPane.showInputDialog("tahun kamu lahir:");
+        String ask1 =JOptionPane.showInputDialog("Nama kamu:");
+        String ask2 =JOptionPane.showInputDialog("Jenis kelamin:");
+        String ask3 = JOptionPane.showInputDialog("Tanggal kamu lahir:");
+        String ask4 = JOptionPane.showInputDialog("Bulan kamu lahir: contoh : Januari");
+        String ask5 = JOptionPane.showInputDialog("Tahun kamu lahir:");
         String ask6 = JOptionPane.showInputDialog("Apa jurusan kuliah kamu ?");
-        String ask7 = JOptionPane.showInputDialog("tahun masuk kuliah:");
+        String ask7 = JOptionPane.showInputDialog("Tahun masuk kuliah:");
         String ask8 = JOptionPane.showInputDialog("Kota asalmu:");
-        String ask9 = JOptionPane.showInputDialog("uang saku per bulan:");
-        String ask10 = JOptionPane.showInputDialog("pengeluaran perbulan:");
+        String ask9 = JOptionPane.showInputDialog("Uang saku per bulan:");
+        String ask10 = JOptionPane.showInputDialog("Pengeluaran perbulan:");
 	String ask11 = JOptionPane.showInputDialog("Apa hobimu?");
 
         saku = Double.parseDouble(ask9);
@@ -30,7 +30,7 @@ public class JavaLibs5026201062
         int usia = tahun+4;
 
         JOptionPane.showMessageDialog(null,"Hai mahasiswa baru. "
-                +"\nBerikut biodata kamu! nama :"+" "+ask1+", "+ask2+", lahir "+ask3+" "+ask4+" "+ask5+"" + " " +"kamu memiliki hobi"+" "+ask11+
+                +"\nBerikut biodata kamu! nama :"+" "+ask1+", "+ask2+", lahir "+ask3+" "+ask4+" "+ask5+"" + " " +"hobimu adalah"+" "+ask11+
                 "\nKamu mengambil jurusan "+ask6+" angkatan "+ask7+". Kota asal kamu "+ask8+". " +
                 "\nSelama kuliah kamu akan mampu menyisihkan uang saku sebesar Rp."+" "+sisa+" "+"perharinya. " +
                 "\nSetelah kamu lulus di tahun "+lulus+", kamu akan berusia "+usia+" dan memiliki tabungan sebesar Rp."+" "+tabungan);
