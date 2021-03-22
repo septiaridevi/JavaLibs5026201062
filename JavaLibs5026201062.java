@@ -5,8 +5,8 @@ public class JavaLibs5026201062
 	{
 	double saku, pengeluaran;
 
-        String ask1 =JOptionPane.showInputDialog("Nama kamu:");
-        String ask2 =JOptionPane.showInputDialog("Jenis kelamin:");
+        String ask1 = JOptionPane.showInputDialog("Nama kamu:");
+        String ask2 = JOptionPane.showInputDialog("Jenis kelamin:");
         String ask3 = JOptionPane.showInputDialog("Tanggal kamu lahir:");
         String ask4 = JOptionPane.showInputDialog("Bulan kamu lahir: contoh : Januari");
         String ask5 = JOptionPane.showInputDialog("Tahun kamu lahir:");
